@@ -16,6 +16,7 @@
 
 .header__svg {
   padding-top: 0px;
+  overflow: visible;
 }
 
 .header__link {
