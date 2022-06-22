@@ -1,0 +1,220 @@
+[class*='container'] {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 100px;
+}
+
+.header__svg {
+  padding-top: 0px;
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 35px;
+  color: #16133d;
+}
+
+.title-logo {
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 35px;
+  margin-left: 15px;
+}
+
+.header__title {
+  color: #16133d;
+}
+
+.footer__title {
+  color: #ffffff;
+}
+
+.services {
+  margin-bottom: 100px;
+}
+
+.services__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7690a8;
+  margin-bottom: 15px;
+}
+
+.services__subtitle {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin-bottom: 40px;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.services__card {
+  position: relative;
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.services__card:hover {
+  border: 1px solid #3db370;
+  transition: all ease 0.3s;
+}
+
+.header__svg {
+  transform: translate(1px, 1px);
+  stroke-width: 2px;
+}
+
+/* ---------hover services icons-------- */
+
+.services__card:nth-child(1):hover::before {
+  content: url(../icons/megaphone-green.svg);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 41px;
+  left: 40px;
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.services__card:nth-child(2):hover::before {
+  content: url(../icons/building-green.svg);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 41px;
+  left: 40px;
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.services__card:nth-child(3):hover::before {
+  content: url(../icons/phone-green.svg);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 41px;
+  left: 40px;
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+/* --------------------------------- */
+
+.sevices__card-image {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+.services__card-title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin-bottom: 15px;
+}
+.services__card-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133d;
+  margin-bottom: 30px;
+}
+.services__card-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3db370;
+}
+
+.footer {
+  background: #16133d;
+  padding-top: 40px;
+}
+
+.footer__list {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.footer__item {
+  position: relative;
+
+  display: flex;
+  width: 38px;
+  height: 38px;
+  background: #efeef3;
+  border-radius: 5px;
+}
+
+.footer__icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: fill 3s;
+}
+
+.footer__icon:hover {
+  fill: #3db370;
+  transition: all ease 0.3s;
+}
+
+.footer__link {
+  width: 100%;
+  height: 100%;
+}
